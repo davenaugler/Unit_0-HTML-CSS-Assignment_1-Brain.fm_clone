@@ -44,7 +44,7 @@ button:hover {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
-  /* flex-direction: row; */
+  flex-direction: row;
 }
 
 .logo-styling {
@@ -78,10 +78,6 @@ a:active {
 /* ----------------- */
 /* --- Section 2 --- */
 /* ----------------- */
-/* .section_2 {
-  display: flex;
-} */
-
 .header-drop {
   margin-top: 100px;
 }
@@ -167,8 +163,6 @@ h1 {
 .section-4 {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  /* align-items: center; */
-  /* flex-direction: row; */
 }
 
 .brain-wave-pic {
@@ -184,7 +178,6 @@ h1 {
 }
 
 .content-adjust-2 {
-  /* possibly change 550px to auto */
   flex: 0 1 550px;
   margin: 10px;
 }
